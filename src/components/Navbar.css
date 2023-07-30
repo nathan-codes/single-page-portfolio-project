@@ -1,0 +1,18 @@
+.Navbar {
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.Navbar .navbar-brand {
+  color: var(--white, #fff);
+  font-family: Space Grotesk;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2rem; /* 100% */
+  letter-spacing: -0.02775rem;
+}
+
+
+.nav-link {
+    color: white;
+}
