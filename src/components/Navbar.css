@@ -12,7 +12,13 @@
   letter-spacing: -0.02775rem;
 }
 
-
 .nav-link {
-    color: white;
+  color: white;
+  padding: 0 0.3rem;
+}
+
+@media (max-width: 380px) {
+  .Navbar .container-fluid {
+    justify-content: center;
+  }
 }

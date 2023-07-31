@@ -1,0 +1,49 @@
+.Intro {
+  margin: 0;
+  border: 1px solid red;
+}
+
+.Intro .row {
+  flex-direction: column-reverse;
+  justify-content: center;
+}
+
+.profileImage {
+  width: 10rem;
+  margin: 0 auto;
+}
+
+.intro-header {
+  color: var(--white, #fff);
+  text-align: center;
+  font-family: Space Grotesk;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2.5rem; /* 100% */
+  letter-spacing: -0.071rem;
+  padding: 0 0;
+}
+
+.intro-description {
+  color: var(--grey, #d9d9d9);
+  text-align: center;
+  font-family: Space Grotesk;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.625rem; /* 162.5% */
+}
+
+.contact-link {
+  text-decoration: none;
+  color: var(--white, #fff);
+  font-family: Space Grotesk;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.625rem; /* 162.5% */
+  letter-spacing: 0.14288rem;
+  margin: 0;
+  border-bottom: 2px solid #4EE1A0;
+}
