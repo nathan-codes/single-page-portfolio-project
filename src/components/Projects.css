@@ -1,0 +1,54 @@
+.Projects {
+  /* border: 1px solid red; */
+}
+
+.projects-header {
+  color: var(--white, #fff);
+  font-family: Space Grotesk;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2.5rem;
+  letter-spacing: -0.071rem;
+  margin: 0;
+}
+
+.project-card {
+  margin: 1.5rem auto;
+}
+
+.project-stack {
+  color: var(--grey, #d9d9d9);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Space Grotesk;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.75rem; /* 155.556% */
+
+}
+
+.project-title {
+  color: var(--white, #fff);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Space Grotesk;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2rem; /* 133.333% */
+}
+
+
+
+@media (min-width: 990px) {
+  .Projects {
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+
+  .project-buttons {
+    display: none!important;
+}
+
+  
+}

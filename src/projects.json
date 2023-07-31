@@ -1,0 +1,34 @@
+[
+  {
+    "title": "Fylo Landing Page",
+    "stack": ["HTML", "CSS", "JAVASCRIPT", "REACT"],
+    "image": "null"
+  },
+  {
+    "title": "Rotech Academy Website",
+    "stack": ["HTML", "CSS", "JAVASCRIPT", "REACT"],
+    "image": "null"
+  },
+  {
+    "title": "Wack a Mole Game",
+    "stack": ["HTML", "CSS", "JAVASCRIPT", "REACT"],
+    "image": "null"
+  },
+  {
+    "title": "Center for Law Landing Page",
+    "stack": ["HTML", "CSS", "JAVASCRIPT", "REACT"],
+    "image": "null"
+  },
+  {
+    "title": "Devjobs Web Application",
+    "stack": ["HTML", "CSS", "JAVASCRIPT", "REACT"],
+    "image": "null"
+  },
+  {
+    "title": "Time Clock",
+    "stack": ["HTML", "CSS", "JAVASCRIPT", "REACT"],
+    "image": "null"
+  }
+
+
+]

@@ -62,6 +62,10 @@ h6 {
 }
 
 :root {
- font-family: 'Dai Banna SIL', serif;
-color: #fff;
+  font-family: "Dai Banna SIL", serif;
+}
+
+body {
+  color: white;
+
 }

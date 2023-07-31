@@ -1,10 +1,14 @@
 import "./App.css";
 import data from "./data.json";
+import projectData from "./projects.json"
 
 
+
+// Importing Components
 import Navbar from "./components/Navbar";
 import Intro from "./components/Intro";
 import Experience from "./components/Experience";
+import Projects from "./components/Projects";
 
 function App() {
   return (
@@ -12,7 +16,8 @@ function App() {
       <main className="container">
         <Navbar />
         <Intro />
-        <Experience skills={data}/>
+        <Experience skills={data} />
+        <Projects projects={projectData}/>
         
       </main>
 
