@@ -5,19 +5,18 @@
 
 .Intro .row {
   flex-direction: column-reverse;
-  justify-content: center;
 }
 
 .profileImage {
   width: 10rem;
-  margin: 0 auto;
+  margin: 2rem auto;
 }
 
 .intro-header {
   color: var(--white, #fff);
   text-align: center;
   font-family: Space Grotesk;
-  font-size: 2rem;
+  font-size: 2.2rem;
   font-style: normal;
   font-weight: 700;
   line-height: 2.5rem; /* 100% */
@@ -33,6 +32,7 @@
   font-style: normal;
   font-weight: 500;
   line-height: 1.625rem; /* 162.5% */
+  margin: 1.2rem 0;
 }
 
 .contact-link {
@@ -45,5 +45,67 @@
   line-height: 1.625rem; /* 162.5% */
   letter-spacing: 0.14288rem;
   margin: 0;
-  border-bottom: 2px solid #4EE1A0;
+  padding-bottom: 8px;
+  border-bottom: 2px solid #4ee1a0;
+}
+
+/* Tablet Size */
+
+@media (min-width: 700px) {
+  .Intro {
+    margin-top: 3rem;
+  }
+  .Intro .row {
+    flex-direction: row;
+  }
+
+  .profileImage {
+    width: 21rem;
+    margin: 2rem auto;
+  }
+
+  .intro-header {
+    color: var(--white, #fff);
+    font-family: Space Grotesk;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 4.5rem; /* 100% */
+    letter-spacing: -0.12781rem;
+    text-align: start;
+  }
+
+  .intro-description {
+    color: var(--grey, #d9d9d9);
+    font-family: Space Grotesk;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.75rem; /* 155.556% */
+    text-align: start;
+  }
+
+  .contact-link {
+    align-self: flex-start;
+  }
+}
+
+/* Desktop Size */
+
+@media (min-width: 900px) {
+  .Intro {
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+  .profileImage {
+    width: 27rem;
+  }
+
+  .intro-description{
+    margin: 3rem 0;
+    width: 60%;
+    align-self: start;
+  }
+
+ 
 }

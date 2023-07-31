@@ -7,10 +7,10 @@ function Intro() {
     <section className="Intro">
       <div className="container text-center">
         <div className="row">
-            <div className="col d-flex flex-column align-items-center">
+            <div className="col col-lg-7 d-flex flex-column align-items-center justify-content-center">
                 <h1 className="intro-header ">
-                Nice to meet you! I&apos;m{" "}
-                <span style={{ borderBottom: "4px solid #4EE1A0" }}>
+                Nice to meet you! I&apos;m
+                          <span style={{ borderBottom: "4px solid #4EE1A0", paddingLeft:"10px" }}>
                     Nathan Turkson.
                 </span>
                 </h1>
@@ -26,7 +26,7 @@ function Intro() {
             </div>
           <div className="col">
             
-            <img src={profileImage} alt="profile" className="profileImage" />
+            <img src={profileImage} alt="profile" className="profileImage img-fluid" />
           </div>
         </div>
       </div>

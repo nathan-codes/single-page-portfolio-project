@@ -2,7 +2,7 @@ import "./Navbar.css";
 
 function Navbar() {
   return (
-    <nav className="Navbar navbar navbar-expand-lg mt-3">
+    <nav className="Navbar navbar navbar-expand-lg pt-3">
       <div className="container-fluid ">
         <a className="navbar-brand" href="#">
           nathanturkson
