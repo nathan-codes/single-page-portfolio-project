@@ -1,6 +1,6 @@
 .Intro {
   margin: 0;
-  border: 1px solid red;
+  border-bottom: 2px solid white;
 }
 
 .Intro .row {
