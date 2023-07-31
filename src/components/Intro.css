@@ -1,6 +1,7 @@
 .Intro {
   margin: 0;
   border-bottom: 2px solid white;
+  padding-bottom: 3rem;
 }
 
 .Intro .row {
@@ -62,6 +63,7 @@
   .profileImage {
     width: 21rem;
     margin: 2rem auto;
+    opacity: 0.6;
   }
 
   .intro-header {

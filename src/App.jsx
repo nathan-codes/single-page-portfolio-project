@@ -1,8 +1,10 @@
 import "./App.css";
+import data from "./data.json";
 
 
 import Navbar from "./components/Navbar";
 import Intro from "./components/Intro";
+import Experience from "./components/Experience";
 
 function App() {
   return (
@@ -10,6 +12,8 @@ function App() {
       <main className="container">
         <Navbar />
         <Intro />
+        <Experience skills={data}/>
+        
       </main>
 
       <footer>
