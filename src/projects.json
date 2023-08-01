@@ -2,33 +2,43 @@
   {
     "title": "Fylo Landing Page",
     "stack": ["HTML", "CSS", "JAVASCRIPT", "REACT"],
-    "image": "null"
+    "image": "/Images/project-1.jpg",
+    "liveUrl": "https://react-fylo-landing-pag.netlify.app",
+    "githubUrl": "https://github.com/nathan-codes/React-Module-1-Project"
   },
   {
-    "title": "Rotech Academy Website",
-    "stack": ["HTML", "CSS", "JAVASCRIPT", "REACT"],
-    "image": "null"
+    "title": "Tindog Landing Page",
+    "stack": ["HTML", "CSS", "JAVASCRIPT"],
+    "image": "/Images/project-2.jpg",
+    "liveUrl": "https://nathan-codes.github.io/TinDog-Start-master/#cta",
+    "githubUrl": "https://github.com/nathan-codes/TinDog-Start-master"
   },
   {
     "title": "Wack a Mole Game",
     "stack": ["HTML", "CSS", "JAVASCRIPT", "REACT"],
-    "image": "null"
+    "image": "/Images/project-3.jpg",
+    "liveUrl": "https://nathan-codes.github.io/whack-a-mole-starter-files-main/?classId=a501d089-9cbb-4788-9695-e42b784898f0&assignmentId=6ce893ba-d1b0-4313-86ef-0a2fa07e2c1c&submissionId=5c0e7b33-4047-c1fe-1d14-6e000c19dce8",
+    "githubUrl": "https://github.com/nathan-codes/whack-a-mole-starter-files-main"
   },
   {
     "title": "Center for Law Landing Page",
     "stack": ["HTML", "CSS", "JAVASCRIPT", "REACT"],
-    "image": "null"
+    "image": "/Images/project-4.jpg",
+    "liveUrl": "https://nathan-codes.github.io/Chancellor-Center-For-Law/",
+    "githubUrl": "https://github.com/nathan-codes/Chancellor-Center-For-Law"
   },
   {
     "title": "Devjobs Web Application",
     "stack": ["HTML", "CSS", "JAVASCRIPT", "REACT"],
-    "image": "null"
+    "image": "/Images/project-5.jpg",
+    "liveUrl": "https://devjobs-amalitech-project.netlify.app/",
+    "githubUrl": "https://github.com/nathan-codes/single-page-portfolio-project"
   },
   {
     "title": "Time Clock",
     "stack": ["HTML", "CSS", "JAVASCRIPT", "REACT"],
-    "image": "null"
+    "image": "/Images/project-6.jpg",
+    "liveUrl": "https://nathan-codes.github.io/Analogue-Clock-Face-Animation/",
+    "githubUrl": "https://github.com/nathan-codes/Analogue-Clock-Face-Animation"
   }
-
-
 ]

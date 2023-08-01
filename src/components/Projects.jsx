@@ -1,6 +1,6 @@
 import "./Projects.css";
 import Button from "./Button";
-import devjobsImage from "../assets/project-1.jpg";
+
 
 function Projects({ projects }) {
   return (
@@ -14,20 +14,17 @@ function Projects({ projects }) {
         {projects.map((project, index) => {
           return (
             <div className="project-card col col-12 col-md-6" key={index}>
-              <img src={devjobsImage} className="card-img-top" alt="..." />
+              <img src={project.image} className="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 className="project-title my-3">{project.title}</h5>
                 <p className="project-stack my-2">
-                          {project.stack.map((tech) => {
-                              return <span className="me-1"> {tech} </span>;
-                          })}
-                          
-                  
+                  {project.stack.map((tech) => {
+                    return <span className="me-1"> {tech} </span>;
+                  })}
                 </p>
-                      <div className="d-flex w-75 justify-content-between project-buttons">
-                         <Button text="VIEW PROJECT" /> 
-                          <Button text="VIEW CODE" /> 
-                        
+                <div className="d-flex w-75 justify-content-between project-buttons">
+                  <Button text="VIEW PROJECT" url={project.liveUrl} />
+                  <Button text="VIEW CODE" url={project.githubUrl} />
                 </div>
               </div>
             </div>

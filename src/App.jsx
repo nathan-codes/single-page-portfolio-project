@@ -17,7 +17,8 @@ function App() {
         <Navbar />
         <Intro />
         <Experience skills={data} />
-        <Projects projects={projectData}/>
+        <Projects projects={projectData} />
+        
         
       </main>
 

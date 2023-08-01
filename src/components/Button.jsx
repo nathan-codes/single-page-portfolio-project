@@ -1,8 +1,8 @@
 import "./Button.css";
 
-function Button({ text }) {
+function Button({ text, url }) {
   return (
-    <a href="#" className="Button">
+    <a href={url} target="_blank"  className="Button">
       {text}
     </a>
   );
