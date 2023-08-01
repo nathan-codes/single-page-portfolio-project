@@ -52,3 +52,11 @@
     line-height: 1.75rem; /* 155.556% */
   }
 }
+
+
+@media (max-width:375px) {
+    .Experience{
+      border-bottom: 1px solid #fff;
+      margin-bottom: 2rem;
+    }
+}

@@ -14,7 +14,7 @@ function Projects({ projects }) {
         {projects.map((project, index) => {
           return (
             <div className="project-card col col-12 col-md-6" key={index}>
-              <img src={project.image} className="card-img-top" alt="..." />
+              <img src={project.image} className="project-img" alt="..." />
               <div className="card-body">
                 <h5 className="project-title my-3">{project.title}</h5>
                 <p className="project-stack my-2">

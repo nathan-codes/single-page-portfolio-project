@@ -10,6 +10,8 @@
   margin: 0;
   padding-bottom: 8px;
   border-bottom: 2px solid #4ee1a0;
- 
-  
+}
+.Button:hover{
+  cursor: pointer;
+  color: #4ee1a0;
 }
