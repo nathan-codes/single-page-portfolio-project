@@ -1,8 +1,7 @@
 import "./App.css";
 import data from "./data.json";
-import projectData from "./projects.json"
-
-
+import projectData from "./projects.json";
+import Footer from "./components/Footer";
 
 // Importing Components
 import Navbar from "./components/Navbar";
@@ -18,13 +17,8 @@ function App() {
         <Intro />
         <Experience skills={data} />
         <Projects projects={projectData} />
-        
-        
       </main>
-
-      <footer>
-       Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum porro facilis atque consectetur doloremque nesciunt perferendis, nostrum eum aliquam tempora nobis pariatur molestias minus numquam fuga esse aspernatur quibusdam rerum.
-      </footer>
+      <Footer />
     </div>
   );
 }
