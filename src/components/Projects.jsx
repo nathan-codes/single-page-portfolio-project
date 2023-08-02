@@ -18,8 +18,8 @@ function Projects({ projects }) {
               <div className="card-body">
                 <h5 className="project-title my-3">{project.title}</h5>
                 <p className="project-stack my-2">
-                  {project.stack.map((tech) => {
-                    return <span className="me-1"> {tech} </span>;
+                  {project.stack.map((tech,index) => {
+                    return <span className="me-1" key={index}> {tech} </span>;
                   })}
                 </p>
                 <div className="d-flex w-75 justify-content-between project-buttons">

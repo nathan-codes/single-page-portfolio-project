@@ -19,6 +19,11 @@
   padding: 0 0.3rem;
 }
 
+.nav-link:hover{
+  color: white;
+  opacity: .5;
+}
+
 @media (max-width: 380px) {
   .Navbar .container-fluid {
     justify-content: center;
